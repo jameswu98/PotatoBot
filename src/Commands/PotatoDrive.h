@@ -4,15 +4,14 @@
 #include "../CommandBase.h"
 #include "WPILib.h"
 
-class PotatoDrive: public CommandBase
-{
+class PotatoDrive: public CommandBase {
 public:
-	PotatoDrive();
-	void Initialize();
-	void Execute();
-	bool IsFinished();
-	void End();
-	void Interrupted();
+    PotatoDrive();
+    void Initialize();
+    void Execute();
+    bool IsFinished();
+    void End();
+    void Interrupted();
 };
 
 #endif
