@@ -14,7 +14,7 @@ private:
 public:
     DriveBase();
     ~DriveBase();
-    void Drive(double vX, double vY, double vR, double Throttle);
+    void Drive(double vX, double vY, double vZ, double Throttle, double k);
     void InitDefaultCommand();
 };
 

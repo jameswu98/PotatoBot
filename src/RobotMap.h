@@ -18,6 +18,11 @@ const int Motor_a_Pos = 1;
 const int Motor_b_Pos = 2;
 const int Motor_c_Pos = 3;
 const int Motor_d_Pos = 4;
+const int Strafe_Motor_Ratio = 1;
+
+#define JOY_DRV_DEAD_X 0.05
+#define JOY_DRV_DEAD_Y 0.05
+#define JOY_DRV_DEAD_Z 0.25
 
 // If you are using multiple modules, make sure to define both the port
 // number and the module. For example you with a rangefinder:

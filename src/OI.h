@@ -13,8 +13,9 @@ public:
     Joystick* getJoyDrv();
     double getJoyDrvX();
     double getJoyDrvY();
-    double getJoyDrvR();
+    double getJoyDrvZ();
     double getJoyDrvThrottle();
+    double applyDeadZone(double,double);
 };
 
 #endif

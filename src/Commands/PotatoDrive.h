@@ -3,6 +3,7 @@
 
 #include "../CommandBase.h"
 #include "WPILib.h"
+#include "../Subsystems/DriveBase.h"
 
 class PotatoDrive: public CommandBase {
 public:
