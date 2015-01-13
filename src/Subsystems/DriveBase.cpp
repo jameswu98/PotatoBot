@@ -32,6 +32,7 @@ void DriveBase::Drive(double vX, double vY, double vZ, double Throttle, double k
     mD = -vX +0 -vZ;
 
     double array [] = {mA, mB, mC, mD};
+
     double max;
 
     for (int i = 0; i <= 3; i += 1)

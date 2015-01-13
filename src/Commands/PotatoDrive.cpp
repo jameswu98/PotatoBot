@@ -17,12 +17,17 @@ void PotatoDrive::Initialize() {
 // Called repeatedly when this Command is scheduled to run
 void PotatoDrive::Execute() {
 
-    double x = oi->getJoyDrvY();
-    double y = -oi->getJoyDrvX();
+    double x = oi->getJoyDrvX();
+    double y = -oi->getJoyDrvY();
     double z = oi->getJoyDrvZ();
     double throttle = oi->getJoyDrvThrottle();
 
     drivebase->Drive(x, y, z, throttle, Strafe_Motor_Ratio);
+
+    //SmartDashboard::PutNumber("Joystick x", x);
+    //SmartDashboard::PutNumber("Joystick y", y);
+    //SmartDashboard::PutNumber("Joystick z", z);
+    //SmartDashboard::PutNumber("Joystick throttle", throttle);
 
 }
 
