@@ -17,8 +17,8 @@ void PotatoDrive::Initialize() {
 // Called repeatedly when this Command is scheduled to run
 void PotatoDrive::Execute() {
 
-    double x = oi->getJoyDrvX();
-    double y = -oi->getJoyDrvY();
+    double x = oi->getJoyDrvY();
+    double y = -oi->getJoyDrvX();
     double z = oi->getJoyDrvZ();
     double throttle = oi->getJoyDrvThrottle();
 

@@ -30,6 +30,6 @@ double OI::getJoyDrvZ(){
 }
 
 double OI::getJoyDrvThrottle(){
-    return (JoyDrv->GetThrottle()-1.0)/2.0;
+    return (JoyDrv->GetTwist()-1.0)/2.0;
 
 }
