@@ -1,4 +1,4 @@
-#include <Commands/PotatoDrive.h>
+#include <Commands/DriveFromJoystick.h>
 #include "../CommandBase.h"
 #include "../RobotMap.h"
 

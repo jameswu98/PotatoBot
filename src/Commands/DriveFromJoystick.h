@@ -1,9 +1,9 @@
 #ifndef POTATODRIVE_H
 #define POTATODRIVE_H
 
+#include <Subsystems/Chassis.h>
 #include "../CommandBase.h"
 #include "WPILib.h"
-#include "../Subsystems/DriveBase.h"
 
 class PotatoDrive: public CommandBase {
 public:

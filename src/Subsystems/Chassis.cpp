@@ -1,5 +1,5 @@
-#include <Commands/PotatoDrive.h>
-#include "DriveBase.h"
+#include <Commands/DriveFromJoystick.h>
+#include <Subsystems/Chassis.h>
 #include "../RobotMap.h"
 
 DriveBase::DriveBase() :
@@ -64,7 +64,7 @@ void DriveBase::Drive(double vX, double vY, double vZ, double Throttle, double k
 void DriveBase::InitDefaultCommand() {
     // Set the default command for a subsystem here.
     //SetDefaultCommand(new MySpecialCommand());
-    SetDefaultCommand(new PotatoDrive());
+    SetDefaultCommand(new DriveFromJoystick());
 }
 
 // Put methods for controlling this subsystem
